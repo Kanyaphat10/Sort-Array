@@ -15,3 +15,19 @@ npm run build
 ```bash
 npm test
 ```
+
+## Setting
+### package.json
+```bash
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+```
+### jest.config.js
+```bash
+module.exports = {
+    preset: 'ts-jest',
+    testEnvironment: 'node',
+};
+```
